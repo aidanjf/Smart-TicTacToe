@@ -1,0 +1,24 @@
+What did you learn during this project?
+
+    We learned how to work and collaborate with others on a collective
+    project (communication, style). We also learned about basic game-theory
+    algorithms like minimax and basic board game structure. This project
+    was definitely a good stepping stone towards a more in depth projects.
+    
+What did you enjoy during this project?
+
+    We enjoyed collaborating with others more closely as working with others
+    is something that we have to be very careful about and seeing how what we learned
+    through the quarter can be used to do more than just solve homework problems.
+
+What did you find challenging or frustrating during this project?
+
+    We found it challenging to understand through the algorithm of minimax throughout the project.
+    Also, it was frustrating working with ed because we were more familiar with using other 
+    IDEs.
+    
+What did you find particularly helpful for your learning during this project?
+
+    We found it particularly helpful talking through with each member of the team and sharing/linking
+    good resources we found. There was also a lot of information on youtube and stackoverflow. We Also
+    found reading the APIs useful.

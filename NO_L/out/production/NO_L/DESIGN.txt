@@ -1,0 +1,45 @@
+Overall Structure:
+    
+    For this project we chose to split it up into 3 classes: NO_L, Board, and Computer. The NO_L class
+    actually runs the program and handles all of the user input. The Board class represents the handles
+    the state of the board and all of its operations, and the Computer class handles all of the move
+    generation. You will also see another class called NO_L2; this was going to be our GUI version of NO_L. 
+    However, we weren't able to get very far with it. 
+
+    The reason we separated Board and Computer from NO_L was so that we could reuse them in NO_L2. No matter what
+    GUI we decided to use we weould be able to reuse the Board and Computer classes, as well as a lot of the method
+    logic in NO_L.
+
+Tile Representation:
+
+    In this project we chose to represent tiles or moves as a single array of length 2, where the first (0-index) element
+    is the the row, and the second (1-index) element is the column. We chose to do this because java doesn't allow methods
+    to return two different numbers so instead of having a complicatred system to get user and computer moves, we chose to pass
+    them around in a single array of length 2.
+
+Board Representation:
+
+    For NO-L, we chose to represent the board with a double array with size 2 by size 2 for a total
+    of 9 tiles. We chose to represent using the double array because it is a 2D data structure which we thought
+    would be the perfect fit for representing a board. Also, on the board we chose to represent the user and 
+    computer marks with "X" and "O" as a class constant so that they can be accessed everywhere throughout the 
+    other classes as well. 
+
+While Loops:
+
+    In the NO_L class we also use a while to play the game, so that it can be played an indefinite amount of times
+    without needing to be rerun in the terminal.
+
+Move Generation:
+
+    Obviously for dumb move generation we used just a simple random object to generate completely random, yet valid moves.
+    However, for the best move generation we used the minimax algorithm. The reason we chose this algorithm is because it 
+    suits two player board games like chess and TicTacToe very, well. It uses recursion to simulate a certain line of moves
+    while alternating moves (basically simulates a unique game) to determine the best possible move a certain point in the game.    
+
+MiniMax Design:
+
+    For the minimax method within our Computer class, the method had to be long with loops that almost
+    look identical because within all the nested for-loops, there were slight variations within
+    that could not be condensed. The reason it could not be condensed because the comparisons made within the 
+    for-loops differs whether it is maximizing or not.
